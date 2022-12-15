@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	
 	for(int i=0;i<10;i++) {
 		r[i] = rand.nextInt(10);
-	for(int j=0;j<10;j++) {
+	for(int j=0;j<j;j++) {
 		if(r[i] == r[j]) {
 			i--;
 		break;
