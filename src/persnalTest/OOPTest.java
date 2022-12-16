@@ -11,14 +11,14 @@ public static void main(String[] args) {
 	member.addr = "화성시";
 	member.name = "고종우";
 	
-	total = printMember(member);
+	total = printMemner(member);
+	System.out.println(total);
 	
 	System.out.println(member.name + " "+  member.addr);
 }
 
-private static int printMemner(Memeber member) {
-	
-	return 0;
+private static int printMemner(Member member) {
+	return member.id;
 }
 
 
