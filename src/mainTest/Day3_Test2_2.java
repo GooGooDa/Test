@@ -37,11 +37,8 @@ Scanner scan = new Scanner(fis);
 						bitmap[i][j+1]=temp;					
 						}
 				}
-		
-		
-		
-	
 	}
 
+}
 }
 }
