@@ -76,9 +76,9 @@ public class Day3_Test2 {
 				}
 			
 			//버블정렬을 쓰게 된다면 이런방식?
-			for(int n=0; n<bitmap.length;   n++)
-				for(int i=0; i<bitmap.length;   i++) {		
-					for(int j=0;j<bitmap[i].length-1;    j++ ) {
+			for(int n=0; n<bitmap.length;n++)
+				for(int i=0; i<bitmap.length;i++) {		
+					for(int j=0;j<bitmap[i].length-1;j++ ) {
 						if(bitmap[i][j]>bitmap[i][j+1]) {
 							int temp=bitmap[i][j];
 							bitmap[i][j]=bitmap[i][j+1];
