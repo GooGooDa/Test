@@ -9,7 +9,7 @@ public class Day6_Test1 {
 		int x2 = 13;
 		int y2 = 13;
 
-		initBoard(canvas);
+		initCanvas(canvas);
 		drawLineOnCanvas(canvas, x1, y1, x2, y2);
 
 	}
@@ -29,7 +29,7 @@ public class Day6_Test1 {
 		}
 	}
 
-	private static void initBoard(char[][] canvas) {
+	private static void initCanvas(char[][] canvas) {
 		for (int y = 0; y < 20; y++) {
 			for (int x = 0; x < 20; x++) {
 				canvas[y][x] = '┼';
