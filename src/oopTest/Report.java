@@ -61,4 +61,19 @@ public class Report {
 		
 		}
 	}
+	public int getMenu() {
+		return menu;
+	}
+	public void setMenu(int menu) {
+		this.menu = menu;
+	}
+	public int getPick() {
+		return pick;
+	}
+	public void setPick(int pick) {
+		this.pick = pick;
+	}
+
+	
+	
 }

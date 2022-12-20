@@ -6,9 +6,10 @@ public static void main(String[] args) {
 	
 	while(true) {
 	report.mainMenu();
-	switch()
-	case : 1report.inputReport();
+	switch(report.getMenu()) {
+	case 1 : report.inputReport();
 	
+	}
 	}
 	
 //	report.answerLoop();
