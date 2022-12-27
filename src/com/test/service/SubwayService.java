@@ -21,7 +21,7 @@ public class SubwayService extends Car{
 
 	public String join() {
 		System.out.println("---- 탑승가능 현황 ----");
-		System.out.print( + "호차 : ");
+//		System.out.print( + "호차 : ");
 		System.out.println("가능");
 		System.out.println("불가능");
 		System.out.println("탑승가능 열차가 없습니다.");
