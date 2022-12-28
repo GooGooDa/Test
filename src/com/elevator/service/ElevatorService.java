@@ -28,17 +28,27 @@ public class ElevatorService {
 		int imp = 0;
 		System.out.println("층 수를 선택해 주세요.");
 		System.out.println("1층\t\t2층\t\t3층");
-				
 		//미완
-			 	{
-				 String line = sc.nextLine();	
-					int c = Integer.parseInt(line); 
-				}while(now == c)
-					System.out.println("목적지로 현재층은 안됩니다.");
-					
-				
-				
+		if(seatCheck()>0) {
+			System.out.println("탑승가능");
+		}else {
+			System.out.println("탑승불가능");
+		}
+		String line = sc.nextLine();	
+		int c = Integer.parseInt(line); 
+	 	if(now != c) {
+				System.out.print(floor[c-1]+"층\n"); 
+	 	}else if(now == c) {
+			System.out.println("목적지로 현재층은 안됩니다.");
+	 	}
+		String fInput = sc.nextLine();
+		int temp = Integer.parseInt(fInput);
+		// if(seatCheck())
+		
 	}
+	
+	
+			 	
 
 	private int seatCheck() {
 	int cnt = 0;
