@@ -1,16 +1,11 @@
 package backjoon;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Main {
-public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
-String a = sc.nextLine();
-String b = sc.nextLine();
-
-if(a.equals("joonas"))
-	System.out.println(a + "??!");
-if(b.equals("baekjoon"))
-	System.out.println(b + "??!");
-}
+	public static void main(String[] args) {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	f
+	}
 }
