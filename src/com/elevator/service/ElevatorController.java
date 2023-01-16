@@ -8,6 +8,8 @@ public static void main(String[] args) {
 	
 	ElevatorService ss = new ElevatorService();
 	
+	System.out.println("---- Welcome Elevator ----");
+	
 	ss.run();
 	
 }
